@@ -13,7 +13,7 @@ const MainPage = () => {
 
   useEffect(() => {
     if (content == "about") {
-      setDetails(<About />)
+      setDetails(<About setContent={setContent} />)
     } else if (content == "skills") {
       setDetails(<Skills />)
     } else if (content == "portfolio") {
