@@ -19,7 +19,7 @@ const Logo = () => {
           <p className="text-xs text-neutral-500">هایلایت پلتفرم تبلیغات آنلاین صنعت و ساختمان ایران می باشد.</p>
         </div>
       </div>
-      <div className="flex flex-col gap-2 w-[200px] bg-neutral-200/50 p-2 rounded-md shadow-md shadow-indigo-300">
+      <div className="flex flex-col gap-2 w-[200px] h-auto bg-neutral-200/50 p-2 rounded-md shadow-md shadow-indigo-300">
         <div className="overflow-hidden bg-neutral-500 rounded-md p-2">
           <Image
             src="/assets/images/portfolio/logo/logo-hamideyvazi.svg"

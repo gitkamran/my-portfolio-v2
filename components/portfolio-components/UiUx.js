@@ -24,7 +24,7 @@ const UiUx = () => {
                 src={img.image}
                 alt='طراحی UIUX پلتفرم تبلیغات آنلاین هایلایت'
                 width={200}
-                height={200}
+                height={113}
                 priority
                 className='w-auto h-auto rounded-md'
               />

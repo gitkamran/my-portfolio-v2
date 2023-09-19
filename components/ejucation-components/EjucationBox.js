@@ -39,7 +39,7 @@ const EjucationBox = ({ title, desc, courseDur, score, src, alt }) => {
                     src={src}
                     alt={alt}
                     width={200}
-                    height={200}
+                    height={141}
                     priority
                     className='w-auto h-auto rounded-md'
                 />
