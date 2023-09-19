@@ -42,7 +42,7 @@ const FormContact = () => {
         <div className="flex flex-col gap-2 p-4 w-full md:w-auto bg-indigo-100 rounded-md">
             <form onSubmit={handleSubmit} className="flex flex-col gap-2">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-                    <div className="flex flex-col gap-0.5 w-full md:w-auto">
+                    <div className="flex flex-col gap-0.5 w-full">
                         <label htmlFor="fullname" className="text-gray-500">نام شما</label>
                         <input
                             type="text"
@@ -55,7 +55,7 @@ const FormContact = () => {
                             <span className="text-sm text-red-500 pt-1">{error.fullname.message}</span>
                         }
                     </div>
-                    <div className="flex flex-col gap-0.5 w-full md:w-auto">
+                    <div className="flex flex-col gap-0.5 w-full">
                         <label htmlFor="email" className="text-gray-500">ایمیل شما</label>
                         <input
                             type="text"

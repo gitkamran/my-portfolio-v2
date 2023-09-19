@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"
+import { FaGithub, FaInstagram } from "react-icons/fa"
 
 const NavMobileBox = ({ content, setContent }) => {
     const [showMenu, setShowMenu] = useState(false)
@@ -8,7 +9,7 @@ const NavMobileBox = ({ content, setContent }) => {
         setShowMenu(!showMenu)
     }
     return (
-        <nav className={showMenu ? "md:hidden fixed right-0 top-0 bottom-0 flex justify-center items-center ease-linear duration-500" : "md:hidden fixed -right-[100%] top-0 bottom-0 flex justify-center items-center ease-linear duration-500"}>
+        <nav className={showMenu ? "md:hidden fixed right-0 top-0 bottom-0 flex justify-center items-center ease-linear duration-500 z-50 bg-neutral-100/70" : "md:hidden fixed -right-[100%] top-0 bottom-0 flex justify-center items-center ease-linear duration-500"}>
             <ul className="bg-neutral-300 rounded-l-xl flex flex-col justify-around shadow-md shadow-indigo-300">
                 <li
                     onClick={() => setContent("about")}
@@ -43,12 +44,20 @@ const NavMobileBox = ({ content, setContent }) => {
             </ul>
             <button onClick={menuHandler} className="fixed right-2 top-2 z-50">
                 {showMenu ?
-                    <HiOutlineX className="text-indigo-500 text-4xl bg-neutral-100 rounded-md" />
+                    <HiOutlineX className="text-indigo-500 text-4xl bg-indigo-100 rounded-md" />
                     :
-                    <HiOutlineMenu className="text-indigo-500 text-4xl bg-neutral-100 rounded-md" />
+                    <HiOutlineMenu className="text-indigo-500 text-4xl bg-indigo-100 rounded-md" />
                 }
             </button>
-        </nav>
+            <div className="flex items-center gap-2 absolute bottom-5">
+                <a href='https://www.instagram.com/mkamran.ir' target='_blank'>
+                    <FaGithub className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+                </a>
+                <a href='https://github.com/gitkamran' target='_blank'>
+                    <FaInstagram className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+                </a>
+            </div>
+        </nav >
     )
 }
 
