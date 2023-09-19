@@ -1,3 +1,5 @@
+import { FaGithub, FaInstagram } from "react-icons/fa"
+
 const NavBox = ({ content, setContent }) => {
     return (
         <nav className="fixed right-0 top-0 bottom-0 hidden md:flex justify-center items-center">
@@ -33,6 +35,14 @@ const NavBox = ({ content, setContent }) => {
                     تماس با من
                 </li>
             </ul>
+            <div className="flex items-center gap-2 absolute bottom-5">
+                <a href='https://www.instagram.com/mkamran.ir' target='_blank'>
+                    <FaInstagram className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+                </a>
+                <a href='https://github.com/gitkamran' target='_blank'>
+                    <FaGithub className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+                </a>
+            </div>
         </nav>
     )
 }

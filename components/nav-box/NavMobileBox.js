@@ -51,10 +51,10 @@ const NavMobileBox = ({ content, setContent }) => {
             </button>
             <div className="flex items-center gap-2 absolute bottom-5">
                 <a href='https://www.instagram.com/mkamran.ir' target='_blank'>
-                    <FaGithub className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+                    <FaInstagram className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
                 </a>
                 <a href='https://github.com/gitkamran' target='_blank'>
-                    <FaInstagram className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+                    <FaGithub className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
                 </a>
             </div>
         </nav >
