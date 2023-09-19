@@ -7,6 +7,7 @@ import Portfolio from '../main-components/Portfolio'
 import Ejucation from '../main-components/Ejucation'
 import Contact from '../main-components/Contact'
 import NavMobileBox from '../nav-box/NavMobileBox'
+import OldPortfolio from '../old-portfolio/OldPortfolio'
 
 const MainPage = () => {
   const [details, setDetails] = useState(<About />)
@@ -30,6 +31,7 @@ const MainPage = () => {
       <NavBox setContent={setContent} content={content} />
       <NavMobileBox setContent={setContent} content={content} />
       {details}
+      <OldPortfolio />
     </main>
   )
 }
