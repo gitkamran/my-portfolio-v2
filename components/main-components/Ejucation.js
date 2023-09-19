@@ -3,7 +3,7 @@ import EjucationBox from "../ejucation-components/EjucationBox"
 const Ejucation = () => {
   return (
     <div className="flex items-center justify-center w-full min-h-screen bg-neutral-100">
-      <div className="flex flex-col gap-4 md:w-[80%] lg:w-[70%] xl:w-[60%]">
+      <div className="flex flex-col gap-4 md:w-[80%] lg:w-[70%] xl:w-[60%] px-4 md:px-0 my-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
           <EjucationBox
             title="Web Design Pack"
