@@ -43,9 +43,9 @@ const NavMobileBox = ({ content, setContent }) => {
             </ul>
             <button onClick={menuHandler} className="fixed right-2 top-2 z-50">
                 {showMenu ?
-                    <HiOutlineX className="text-indigo-500 text-4xl" />
+                    <HiOutlineX className="text-indigo-500 text-4xl bg-neutral-100 rounded-md" />
                     :
-                    <HiOutlineMenu className="text-indigo-500 text-4xl" />
+                    <HiOutlineMenu className="text-indigo-500 text-4xl bg-neutral-100 rounded-md" />
                 }
             </button>
         </nav>

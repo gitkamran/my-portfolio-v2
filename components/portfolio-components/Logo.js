@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Logo = () => {
   return (
-    <div className="flex items-center justify-center gap-2">
+    <div className="flex flex-col md:flex-row items-center justify-center gap-2 my-14">
       <div className="flex flex-col gap-2 w-[200px] bg-neutral-200/50 p-2 rounded-md shadow-md shadow-indigo-300">
         <div className="overflow-hidden bg-white rounded-md p-2">
           <Image

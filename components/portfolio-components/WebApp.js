@@ -3,17 +3,17 @@ import { HiOutlineCube } from 'react-icons/hi'
 
 const WebApp = () => {
     return (
-        <div className="flex flex-col gap-4 w-full">
+        <div className="flex flex-col gap-4 w-full my-14 px-4 md:px-0">
             <div className='flex items-center gap-2'>
                 <h2>وب اپلیکیشن خرید و دانلود فایل</h2>
                 <span className='bg-indigo-100 text-xs p-1 rounded-md text-neutral-600'>نمونه کار</span>
             </div>
-            <div className='flex items-center gap-1'>
-                <div className='flex items-center gap-1 text-neutral-600'>
+            <div className='flex items-start md:items-center gap-1'>
+                <div className='flex items-center gap-1 text-neutral-600 whitespace-nowrap'>
                     <HiOutlineCube className='' />
                     <h2 className='text-sm font-bold'>تکنولوژی ها:</h2>
                 </div>
-                <p className='text-neutral-500 text-sm'>next js, node js, express, json web token, mongo db, tailwind css</p>
+                <p className='text-neutral-500 text-sm ltr'>next js, node js, express, json web token, mongo db, tailwind css</p>
             </div>
             <div className='flex flex-col gap-2 border-r border-r-neutral-300 pr-2'>
                 <h2 className='text-neutral-600 font-bold text-sm'>

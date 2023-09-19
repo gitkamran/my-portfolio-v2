@@ -9,9 +9,9 @@ const UiUx = () => {
   const [linkImage, setLinkImage] = useState("")
   const [showImage, setShowImage] = useState(false)
   return (
-    <div className="flex flex-col gap-4">
-      <h2 className="text-neutral-600">طراحی UI UX پلتفرم تبلیغات آنلاین صنعت و ساختمان <a href="https://panel.hilite.ir/register" target="_blank" className="text-blue-500 underline underline-offset-4">هایلات</a></h2>
-      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-2">
+    <div className="flex flex-col gap-4 my-14 px-4 md:px-0">
+      <h2 className="text-neutral-600 text-sm md:text-base">طراحی UI UX پلتفرم تبلیغات آنلاین صنعت و ساختمان <a href="https://panel.hilite.ir/register" target="_blank" className="text-blue-500 underline underline-offset-4">هایلات</a></h2>
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mx-auto">
         {UIUX.map((img, i) => (
           <div key={i}>
             <div onClick={() => {
@@ -34,7 +34,7 @@ const UiUx = () => {
         ))}
         {
           showImage &&
-          <div className="fixed inset-0 bg-neutral-500/50 z-50">
+          <div className="fixed inset-0 bg-neutral-500/50 z-50 px-2">
             <div className='flex items-center justify-center w-full h-full'>
               <Image
                 src={linkImage}

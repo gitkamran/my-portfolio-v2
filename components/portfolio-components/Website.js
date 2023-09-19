@@ -3,7 +3,7 @@ import WebsiteBox from './WebsiteBox'
 
 const Website = () => {
   return (
-    <div className='flex flex-col gap-4 md:w-[80%] lg:w-[60%] xl:w-[70%] mx-auto'>
+    <div className='flex flex-col gap-4 md:w-[80%] lg:w-[60%] xl:w-[70%] mx-auto my-14 px-4 md:px-0'>
       <WebsiteBox
         title="وبسایت دانلود آهنگ جدید"
         tools="php, wordpress, yoast seo, wp rocket"

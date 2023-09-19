@@ -5,12 +5,12 @@ const WebsiteBox = ({ title, tools, desc,href }) => {
     return (
         <div className='flex flex-col gap-2'>
             <h2>{title}</h2>
-            <div className='flex items-center gap-1'>
-                <div className='flex items-center gap-1 text-neutral-600'>
+            <div className='flex items-start md:items-center gap-1'>
+                <div className='flex items-center gap-1 text-neutral-600 whitespace-nowrap'>
                     <HiOutlineCube className='' />
                     <h2 className='text-sm font-bold'>تکنولوژی ها:</h2>
                 </div>
-                <p className='text-neutral-500 text-sm'>{tools}</p>
+                <p className='text-neutral-500 text-sm ltr'>{tools}</p>
             </div>
             <div className='flex flex-col gap-2 border-r border-r-neutral-300 pr-2'>
                 <h2 className='text-neutral-600 font-bold text-sm'>
