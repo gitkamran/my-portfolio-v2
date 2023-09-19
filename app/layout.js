@@ -3,7 +3,7 @@ import './globals.css'
 export const metadata = {
   title: 'Mohammad Kamran | Portfolio',
   description: 'Personal Website And Portfolio',
-  themeColor: '#E0E7FF'
+  themeColor: '#f5f5f5'
 }
 
 export default function RootLayout({ children }) {

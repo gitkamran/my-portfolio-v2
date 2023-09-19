@@ -4,8 +4,8 @@ import "@/app/custom.css"
 const Skills = () => {
   return (
     <div className="flex items-center justify-center w-full min-h-screen bg-neutral-100">
-      <div className="flex flex-col gap-2">
-        <div className="grid grid-cols-1 md:grid-cols-3 ltr border-b border-b-neutral-400 pb-4 gap-2">
+      <div className="flex flex-col gap-2 px-4 md:px-0">
+        <div className="grid grid-cols-2 md:grid-cols-3 ltr border-b border-b-neutral-400 pb-4 gap-2">
           <SkillBox
             src="/assets/images/skills/html.svg"
             alt="HTML"

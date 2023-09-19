@@ -1,6 +1,14 @@
-const NavBox = ({ content, setContent }) => {
+"use client"
+import { useState } from "react"
+import { HiOutlineMenu, HiOutlineX } from "react-icons/hi"
+
+const NavMobileBox = ({ content, setContent }) => {
+    const [showMenu, setShowMenu] = useState(false)
+    const menuHandler = () => {
+        setShowMenu(!showMenu)
+    }
     return (
-        <nav className="fixed right-0 top-0 bottom-0 hidden md:flex justify-center items-center">
+        <nav className={showMenu ? "md:hidden fixed right-0 top-0 bottom-0 flex justify-center items-center ease-linear duration-500" : "md:hidden fixed -right-[100%] top-0 bottom-0 flex justify-center items-center ease-linear duration-500"}>
             <ul className="bg-neutral-300 rounded-l-xl flex flex-col justify-around shadow-md shadow-indigo-300">
                 <li
                     onClick={() => setContent("about")}
@@ -33,8 +41,15 @@ const NavBox = ({ content, setContent }) => {
                     تماس با من
                 </li>
             </ul>
+            <button onClick={menuHandler} className="fixed right-2 top-2 z-50">
+                {showMenu ?
+                    <HiOutlineX className="text-indigo-500 text-4xl" />
+                    :
+                    <HiOutlineMenu className="text-indigo-500 text-4xl" />
+                }
+            </button>
         </nav>
     )
 }
 
-export default NavBox
+export default NavMobileBox

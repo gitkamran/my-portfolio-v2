@@ -33,7 +33,7 @@ const EjucationBox = ({ title, desc, courseDur, score, src, alt }) => {
                 setLinkImage(src);
                 setShowImage(true)
             }}
-                className="w-full h-auto cursor-pointer focus:outline-none"
+                className="w-auto h-auto cursor-pointer focus:outline-none"
             >
                 <Image
                     src={src}

@@ -39,7 +39,7 @@ const FormContact = () => {
         }
     };
     return (
-        <div className="flex flex-col gap-2 p-2 w-full md:w-auto">
+        <div className="flex flex-col gap-2 p-4 w-full md:w-auto bg-indigo-100 rounded-md">
             <form onSubmit={handleSubmit} className="flex flex-col gap-2">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex flex-col gap-0.5 w-full md:w-auto">
@@ -82,7 +82,7 @@ const FormContact = () => {
                         <span className="text-sm text-red-500 pt-1">{error.message.message}</span>
                     }
                 </div>
-                <button type="submit" className="mt-2 p-2 rounded-md bg-indigo-500 hover:bg-indigo-600 ease-linear duration-300 text-white w-fit">ارسال پیام</button>
+                <button type="submit" className="mt-2 p-2 rounded-md bg-indigo-500 text-white w-fit shadow-md shadow-indigo-300">ارسال پیام</button>
             </form>
             {success &&
                 <span className="text-sm bg-green-700 text-white p-2 text-center rounded-md">{error}</span>

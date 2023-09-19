@@ -4,8 +4,8 @@ import { HiOutlineAcademicCap, HiOutlineCalendar, HiOutlineCode, HiOutlineLocati
 const About = ({ setContent }) => {
   return (
     <div className="flex items-center justify-center w-full min-h-screen bg-neutral-100">
-      <div className="flex flex-col gap-2">
-        <div className="flex gap-4 border-b border-b-neutral-400 pb-4">
+      <div className="flex flex-col gap-2 px-4 md:px-0">
+        <div className="flex flex-col md:flex-row items-center gap-4 border-b border-b-neutral-400 pb-4">
           <div className="w-[200px] overflow-hidden rounded-md shadow-md shadow-indigo-300">
             <Image
               src="/assets/images/mk.jpg"
