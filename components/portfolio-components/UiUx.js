@@ -18,7 +18,7 @@ const UiUx = () => {
               setLinkImage(img.image);
               setShowImage(true)
             }}
-              className="cursor-pointer focus:outline-none w-[150px] lg:w-[200px] rounded-md outline outline-2 outline-neutral-300"
+              className="cursor-pointer focus:outline-none w-[150px] lg:w-[200px] h-auto rounded-md outline outline-2 outline-neutral-300"
             >
               <Image
                 src={img.image}
