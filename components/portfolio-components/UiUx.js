@@ -34,18 +34,21 @@ const UiUx = () => {
         ))}
         {
           showImage &&
-          <div className="fixed inset-0 bg-neutral-500/50 z-50 px-2">
-            <div className='flex items-center justify-center w-full h-full'>
+          <div className='fixed inset-0 flex items-center justify-center w-full h-full'>
+            <div onClick={() => setShowImage(false)} className="fixed inset-0 bg-indigo-200/70 z-40 p-4">
+              <HiOutlineX onClick={() => setShowImage(false)} className="cursor-pointer absolute top-2 right-2 text-4xl text-indigo-500" />
+            </div>
+
+            <div className='z-50 fixed flex items-center justify-center p-2'>
               <Image
                 src={linkImage}
                 alt='طراحی UI پلتفرم تبلیغات آنلاین هایلایت'
                 width={800}
-                height={800}
+                height={600}
                 priority
                 className='w-auto h-auto rounded-md'
               />
             </div>
-            <HiOutlineX onClick={() => setShowImage(false)} className="cursor-pointer absolute top-2 right-2 text-3xl text-white" />
           </div>
         }
       </div>

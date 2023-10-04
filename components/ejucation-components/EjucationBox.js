@@ -46,8 +46,11 @@ const EjucationBox = ({ title, desc, courseDur, score, src, alt }) => {
             </div>
             {
                 showImage &&
-                <div className="fixed inset-0 bg-neutral-500/70 z-50 p-4">
-                    <div className='flex items-center justify-center w-full h-full'>
+                <div className='fixed inset-0 flex items-center justify-center w-full h-full'>
+                    <div onClick={() => setShowImage(false)} className="fixed inset-0 bg-neutral-100/70 z-40 p-4">
+                        <HiOutlineX onClick={() => setShowImage(false)} className="cursor-pointer absolute top-2 right-2 text-4xl text-indigo-500" />
+                    </div>
+                    <div className='z-50 fixed flex items-center justify-center p-2'>
                         <Image
                             src={linkImage}
                             alt={alt}
@@ -57,8 +60,8 @@ const EjucationBox = ({ title, desc, courseDur, score, src, alt }) => {
                             className='w-auto h-auto rounded-md'
                         />
                     </div>
-                    <HiOutlineX onClick={() => setShowImage(false)} className="cursor-pointer absolute top-2 right-2 text-4xl text-white" />
                 </div>
+
             }
         </div>
     )
