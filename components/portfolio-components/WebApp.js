@@ -68,7 +68,7 @@ const WebApp = () => {
                 <a href="https://newupdate.ir" target='_blank' className='bg-indigo-500 p-2 text-white text-sm w-fit rounded-md shadow-md shadow-indigo-300'>مشاهده وبسایت</a>
             </div>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 border-b border-b-indigo-400 pb-4">
                 <div className='flex items-end gap-2'>
                     <h2 className='text-4xl font-bold w-14 h-14 flex items-center justify-center bg-neutral-200 rounded-md shadow-md'>2</h2>
                     <div className='flex items-center gap-2'>
@@ -98,6 +98,46 @@ const WebApp = () => {
                     </p>
                 </div>
                 <a href="https://weather-app-mkamran.vercel.app/" target='_blank' className='bg-indigo-500 p-2 text-white text-sm w-fit rounded-md shadow-md shadow-indigo-300'>مشاهده وبسایت</a>
+            </div>
+
+            <div className="flex flex-col gap-4 border-b border-b-indigo-400 pb-4">
+                <div className='flex items-end gap-2'>
+                    <h2 className='text-4xl font-bold w-14 h-14 flex items-center justify-center bg-neutral-200 rounded-md shadow-md'>3</h2>
+                    <div className='flex items-center gap-2'>
+                        <h2>وب اپلیکیشن خرید سوپر مارکت</h2>
+                        <span className='bg-indigo-100 text-xs p-1 rounded-md text-neutral-600'>نمونه کار</span>
+                    </div>
+                </div>
+                <div className='flex items-start md:items-center gap-1'>
+                    <div className='flex items-center gap-1 text-neutral-600 whitespace-nowrap'>
+                        <HiOutlineCube className='' />
+                        <h2 className='text-sm font-bold'>تکنولوژی ها:</h2>
+                    </div>
+                    <p className='text-neutral-500 text-sm ltr'>next js, tailwind css</p>
+                </div>
+                <div className='flex flex-col gap-2 border-r border-r-neutral-300 pr-2'>
+                    <h2 className='text-neutral-600 font-bold text-sm'>
+                        امکانات سایت
+                    </h2>
+                    <p className='text-neutral-500 text-sm'>
+                        صفحه اصلی شامل اسلایدر، بنر های تبلیغاتی، اسلایدر محصولات
+                    </p>
+                    <p className='text-neutral-500 text-sm'>
+                        امکان جستجو محصول، دسته بندی محصول و فیلتر محصولات و صفحه بندی محصولات
+                    </p>
+                    <p className='text-neutral-500 text-sm'>
+                        ورود به حساب کاربری با تلفن همراه *به صورت دمو
+                    </p>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <span className='text-rose-500 font-bold text-sm'>نکته:</span>
+                    <p className='text-sm text-neutral-500'>قسمت فرانت این وب اپلیکیشن به صورت نمونه از سایت اصلی قزوین مارکت طراحی شده است.</p>
+                </div>
+                <div className='flex items-center gap-2'>
+                    <span className='text-rose-500 font-bold text-sm'>نکته:</span>
+                    <p className='text-sm text-neutral-500'>طراحی ریسپانسیو این وب اپلیکیشن در حال انجام است.</p>
+                </div>
+                <a href="https://next-market-mu-five.vercel.app/" target='_blank' className='bg-indigo-500 p-2 text-white text-sm w-fit rounded-md shadow-md shadow-indigo-300'>مشاهده وبسایت</a>
             </div>
         </div>
     )
