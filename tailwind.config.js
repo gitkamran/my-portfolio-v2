@@ -9,10 +9,11 @@ module.exports = {
     extend: {
       cursor: {
         "zoom-in-new": "url(/assets/images/cursor/zoom-in.svg), zoom-in",
-        "zoom-out-new":
-          "url(/assets/images/cursor/zoom-out.svg), zoom-out",
+        "zoom-out-new": "url(/assets/images/cursor/zoom-out.svg), zoom-out",
       },
       backgroundImage: {
+        "geometric": "url(/assets/images/pattern/geometric.svg)",
+        "lines": "url(/assets/images/pattern/lines.svg)",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
