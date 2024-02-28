@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  robotsTxt: {
+    sitemap: "https://mkamran.ir/sitemap.xml",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
