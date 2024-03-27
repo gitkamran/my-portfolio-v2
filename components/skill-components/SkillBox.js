@@ -4,7 +4,7 @@ const SkillBox = ({ src, alt, title }) => {
   return (
     <div className="text-neutral-700 flex items-center rounded-md shadow-md shadow-indigo-300">
       <div className="bg-neutral-200 w-12 md:w-16 h-12 md:h-16 rounded-l-md flex items-center justify-center overflow-hidden">
-        <div className="w-[48px] md:w-[64px] h-12 md:h-16">
+        <div className="w-[48px] md:w-[64px] h-12 md:h-16 flex items-center justify-center">
           <Image
             src={src}
             alt={alt}
