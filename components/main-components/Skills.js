@@ -27,12 +27,12 @@ const Skills = () => {
             title="React JS"
           />
           <SkillBox
-            src="/assets/images/skills/nextjs.svg"
+            src="/assets/images/skills/next-js.svg"
             alt="Next JS"
             title="Next JS"
           />
           <SkillBox
-            src="/assets/images/skills/nodejs.svg"
+            src="/assets/images/skills/nodejs-icon.svg"
             alt="Node JS"
             title="Node JS"
           />
