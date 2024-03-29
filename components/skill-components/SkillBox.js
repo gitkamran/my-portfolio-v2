@@ -10,7 +10,7 @@ const SkillBox = ({ src, alt, title }) => {
           width={64}
           height={64}
           priority
-          className="w-auto h-auto md:hover:scale-150 ease-linear duration-300 bg-rose-500 bg-current"
+          className="w-auto h-auto bg-transparent"
         />
       </div>
       <div className="rounded-r-md bg-neutral-300 h-12 md:h-16 w-full flex items-center justify-center px-4">
