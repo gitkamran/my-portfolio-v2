@@ -4,7 +4,7 @@ import About from "../main-components/About";
 import Skills from "../main-components/Skills";
 import NavBox from "../nav-box/NavBox";
 import Portfolio from "../main-components/Portfolio";
-import Ejucation from "../main-components/Ejucation";
+import Education from "../main-components/Education";
 import Contact from "../main-components/Contact";
 import NavMobileBox from "../nav-box/NavMobileBox";
 
@@ -19,8 +19,8 @@ const MainPage = () => {
       setDetails(<Skills />);
     } else if (content == "portfolio") {
       setDetails(<Portfolio />);
-    } else if (content == "ejucation") {
-      setDetails(<Ejucation />);
+    } else if (content == "education") {
+      setDetails(<Education />);
     } else if (content == "contact") {
       setDetails(<Contact />);
     }

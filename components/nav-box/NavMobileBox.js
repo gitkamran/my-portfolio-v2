@@ -30,8 +30,8 @@ const NavMobileBox = ({ content, setContent }) => {
                     نمونه کار
                 </li>
                 <li
-                    onClick={() => setContent("ejucation")}
-                    className={`${content == "ejucation" ? "bg-indigo-500 shadow-md shadow-indigo-300 text-white ease-linear duration-300" : "bg-neutral-200/50 ease-linear duration-300"} text-sm lg:text-base py-6 px-1 lg:p-6 text-center cursor-pointer border-b border-b-indigo-500`}
+                    onClick={() => setContent("education")}
+                    className={`${content == "education" ? "bg-indigo-500 shadow-md shadow-indigo-300 text-white ease-linear duration-300" : "bg-neutral-200/50 ease-linear duration-300"} text-sm lg:text-base py-6 px-1 lg:p-6 text-center cursor-pointer border-b border-b-indigo-500`}
                 >
                     سوابق آموزشی
                 </li>
