@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const OldSkill = () => {
   const copyVless = () => {
-    copyToClipboard(process.env.VLESS_KEY);
+    copyToClipboard(process.env.NEXT_PUBLIC_VLESS_KEY);
   };
   return (
     <div className="flex flex-col gap-4 md:flex-row md:items-center justify-between w-full">
