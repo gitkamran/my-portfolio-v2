@@ -1,0 +1,5 @@
+[
+  { "name": "Instagram", "url": "https://instagram.com/mkamran.ir", "icon": "instagram" },
+  { "name": "GitHub", "url": "https://github.com/gitkamran", "icon": "github" },
+  { "name": "Email", "url": "mailto:mkamran.ir@gmail.com", "icon": "mail" }
+]

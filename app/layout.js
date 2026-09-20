@@ -1,3 +1,5 @@
+import NavBox from "@/components/nav-box/NavBox";
+import NavMobileBox from "@/components/nav-box/NavMobileBox";
 import "./globals.css";
 
 export const metadata = {
@@ -13,7 +15,11 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa-IR" dir="rtl">
-      <body>{children}</body>
+      <body className="w-full overflow-hidden bg-indigo-50">
+        <NavBox />
+        <NavMobileBox />
+        <main className="h-screen overflow-y-auto">{children}</main>
+      </body>
     </html>
   );
 }

@@ -1,0 +1,98 @@
+[
+  {
+    "category": "فرانت‌اند",
+    "items": [
+      {
+        "name": "React",
+        "level": 95,
+        "image": "/assets/images/skills/react.svg"
+      },
+      {
+        "name": "Next.js",
+        "level": 90,
+        "image": "/assets/images/skills/next-js.svg"
+      },
+      {
+        "name": "Redux",
+        "level": 95,
+        "image": "/assets/images/skills/redux.svg"
+      },
+      {
+        "name": "JavaScript",
+        "level": 90,
+        "image": "/assets/images/skills/javascript.svg"
+      },
+      {
+        "name": "TypeScript",
+        "level": 80,
+        "image": "/assets/images/skills/typescript.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 95,
+        "image": "/assets/images/skills/tailwindcss.svg"
+      },
+      {
+        "name": "HTML/CSS",
+        "level": 95,
+        "image": "/assets/images/skills/css.svg"
+      }
+    ]
+  },
+  {
+    "category": "بک‌اند",
+    "items": [
+      {
+        "name": "Node.js",
+        "level": 90,
+        "image": "/assets/images/skills/nodejs-icon.svg"
+      },
+      {
+        "name": "Express",
+        "level": 90,
+        "image": "/assets/images/skills/express.svg"
+      },
+      {
+        "name": "MongoDB",
+        "level": 80,
+        "image": "/assets/images/skills/mongodb.svg"
+      },
+      {
+        "name": "MySQL",
+        "level": 75,
+        "image": "/assets/images/skills/mysql.svg"
+      },
+      {
+        "name": "SocketIO",
+        "level": 60,
+        "image": "/assets/images/skills/socket-io.svg"
+      },
+      {
+        "name": "Redis",
+        "level": 65,
+        "image": "/assets/images/skills/redis.svg"
+      },
+      {
+        "name": "RESTful API",
+        "level": 90,
+        "image": "/assets/images/skills/api.svg"
+      }
+    ]
+  },
+  {
+    "category": "ابزارها",
+    "items": [
+      {
+        "name": "Docker",
+        "level": 80,
+        "image": "/assets/images/skills/docker.svg"
+      },
+      { "name": "Git", "level": 90, "image": "/assets/images/skills/git.svg" },
+      {
+        "name": "Figma",
+        "level": 70,
+        "image": "/assets/images/skills/figma.svg"
+      }
+    ]
+  }
+]

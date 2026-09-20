@@ -1,0 +1,75 @@
+[
+  {
+    "id": "exp-5",
+    "company": "شرکت خصوصی (کاسپین تیم)",
+    "role": "توسعه‌دهنده فول‌استک",
+    "period": "1402 - 1405",
+    "location": "تهران",
+    "description": "پیاده‌سازی و توسعه اپلیکیشن‌های وب با React.js، Next.js و Node.js",
+    "highlights": [
+      "طراحی و پیاده‌سازی RESTful API با Express و MongoDB",
+      "توسعه فرانت‌اند با React، Next و Tailwind CSS",
+      "استقرار اپلیکیشن‌ها با Docker و CI/CD"
+    ],
+    "tech": [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "Node.js",
+      "MongoDB",
+      "Docker"
+    ]
+  },
+  {
+    "id": "exp-4",
+    "company": "شرکت خصوصی (حمید عیوضی)",
+    "role": "توسعه‌دهنده فول‌استک",
+    "period": "1401 - 1402",
+    "location": "کرج",
+    "description": "پیاده‌سازی و توسعه وب اپلیکیشن با React.js و Node.js",
+    "highlights": [
+      "طراحی و پیاده‌سازی RESTful API با Express و MongoDB",
+      "توسعه فرانت‌اند با React و Tailwind CSS",
+      "استقرار اپلیکیشن‌ها با Liara و CI/CD"
+    ],
+    "tech": ["React.js", "JavaScript", "Node.js", "MongoDB"]
+  },
+  {
+    "id": "exp-3",
+    "company": "شرکت خصوصی (فن‌آوای هوش مصنوعی)",
+    "role": "گرافیست و طراح وب",
+    "period": "1399 - 1401",
+    "location": "تهران",
+    "description": "طراحی گرافیک و پیاده‌سازی وب‌سایت‌های شرکتی با وردپرس",
+    "highlights": [
+      "طراحی لوگو، بروشور و کاتالوگ",
+      "پیاده‌سازی بیش از ۱۰ وب‌سایت وردپرسی",
+      "سفارشی‌سازی قالب‌ها با HTML/CSS"
+    ],
+    "tech": ["WordPress", "PHP", "HTML", "CSS", "Photoshop", "Illustrator"]
+  },
+
+  {
+    "id": "exp-2",
+    "company": "شرکت خصوصی (هرمس ویس)",
+    "role": "گرافیست و طراح وب",
+    "period": "1399 - 1399",
+    "location": "تهران",
+    "description": "طراحی گرافیک چاپی و پشتیبانی وب‌سایت‌ وردپرسی شرکت",
+    "highlights": [
+      "طراحی لوگو، بروشور و کاتالوگ",
+      "پشتیبانی وب‌سایت وردپرسی شرکت"
+    ],
+    "tech": ["WordPress", "Photoshop", "Illustrator"]
+  },
+  {
+    "id": "exp-1",
+    "company": "چاپخانه (دورکاری)",
+    "role": "گرافیست",
+    "period": "1398 - 1399",
+    "location": "تهران",
+    "description": "طراحی گرافیک چاپی",
+    "highlights": ["طراحی لوگو، بروشور، لیبل، جعبه محصول و کاتالوگ"],
+    "tech": ["Photoshop", "Illustrator"]
+  }
+]
