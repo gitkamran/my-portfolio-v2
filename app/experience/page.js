@@ -1,3 +1,5 @@
+import ExperienceComp from "@/components/experience/ExperienceComp";
+
 export default function Experience() {
-  return <main>سوابق شغلی</main>;
+  return <ExperienceComp />;
 }
