@@ -4,10 +4,10 @@ import {
   HiOutlineCode,
   HiOutlineLocationMarker,
 } from "react-icons/hi";
-import Pictures from "./Pictures";
 import Link from "next/link";
+import Pictures from "../main-page/Pictures";
 
-const MainPage = () => {
+const AboutComp = () => {
   return (
     <div className="flex items-center justify-center w-full min-h-screen bg-neutral-100">
       <div className="flex flex-col gap-2 px-4 md:px-0">
@@ -51,4 +51,4 @@ const MainPage = () => {
   );
 };
 
-export default MainPage;
+export default AboutComp;

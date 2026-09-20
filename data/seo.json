@@ -1,0 +1,18 @@
+{
+  "titleTemplate": "%s | محمد کامران",
+  "defaultTitle": "محمد کامران | برنامه‌نویس وب و فول‌استک",
+  "description": "پرتفلیو محمد کامران، برنامه‌نویس وب و فول‌استک ساکن کرج. متخصص Next.js، React، Node.js و TypeScript با ۵ سال سابقه کار حرفه‌ای.",
+  "siteUrl": "https://mkamran.ir",
+  "ogImage": "/og-image.jpg",
+  "keywords": [
+    "محمد کامران",
+    "برنامه نویس وب",
+    "فول استک",
+    "Next.js",
+    "React",
+    "Node.js",
+    "TypeScript",
+    "کرج",
+    "پرتفلیو"
+  ]
+}

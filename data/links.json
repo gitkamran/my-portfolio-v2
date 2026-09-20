@@ -1,0 +1,39 @@
+[
+  {
+    "id": "link_1",
+    "title": "خانه",
+    "link": "/",
+    "start": true
+  },
+  {
+    "id": "link_2",
+    "title": "درباره‌ من",
+    "link": "/about"
+  },
+  {
+    "id": "link_3",
+    "title": "مهارت‌ها",
+    "link": "/skills"
+  },
+  {
+    "id": "link_4",
+    "title": "سوابق شغلی",
+    "link": "/experience"
+  },
+  {
+    "id": "link_5",
+    "title": "پروژه‌ها",
+    "link": "/portfolio"
+  },
+  {
+    "id": "link_6",
+    "title": "سوابق آموزشی",
+    "link": "/education"
+  },
+  {
+    "id": "link_7",
+    "title": "تماس با من",
+    "link": "/contact",
+    "end": true
+  }
+]

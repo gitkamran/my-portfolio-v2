@@ -1,50 +1,36 @@
-import { FaGithub, FaInstagram } from "react-icons/fa"
+import { FaGithub, FaInstagram } from "react-icons/fa";
+import NavLink from "./NavLink";
+import { getLinks } from "@/app/lib/data";
 
-const NavBox = ({ content, setContent }) => {
-    return (
-        <nav className="fixed right-0 top-0 bottom-0 hidden md:flex justify-center items-center">
-            <ul className="bg-neutral-300 rounded-l-xl flex flex-col justify-around shadow-md shadow-indigo-300">
-                <li
-                    onClick={() => setContent("about")}
-                    className={`${content == "about" ? "bg-indigo-500 shadow-md shadow-indigo-300 text-white ease-linear duration-300" : "bg-neutral-200/50 ease-linear duration-300"} text-sm lg:text-base py-6 px-1 lg:p-6 text-center cursor-pointer rounded-tl-xl border-b border-b-indigo-500`}
-                >
-                    درباره من
-                </li>
-                <li
-                    onClick={() => setContent("skills")}
-                    className={`${content == "skills" ? "bg-indigo-500 shadow-md shadow-indigo-300 text-white ease-linear duration-300" : "bg-neutral-200/50 ease-linear duration-300"} text-sm lg:text-base py-6 px-1 lg:p-6 text-center cursor-pointer border-b border-b-indigo-500`}
-                >
-                    مهارت ها
-                </li>
-                <li
-                    onClick={() => setContent("portfolio")}
-                    className={`${content == "portfolio" ? "bg-indigo-500 shadow-md shadow-indigo-300 text-white ease-linear duration-300" : "bg-neutral-200/50 ease-linear duration-300"} text-sm lg:text-base py-6 px-1 lg:p-6 text-center cursor-pointer border-b border-b-indigo-500`}
-                >
-                    نمونه کار
-                </li>
-                <li
-                    onClick={() => setContent("education")}
-                    className={`${content == "education" ? "bg-indigo-500 shadow-md shadow-indigo-300 text-white ease-linear duration-300" : "bg-neutral-200/50 ease-linear duration-300"} text-sm lg:text-base py-6 px-1 lg:p-6 text-center cursor-pointer border-b border-b-indigo-500`}
-                >
-                    سوابق آموزشی
-                </li>
-                <li
-                    onClick={() => setContent("contact")}
-                    className={`${content == "contact" ? "bg-indigo-500 shadow-md shadow-indigo-300 text-white ease-linear duration-300" : "bg-neutral-200/50 ease-linear duration-300"} text-sm lg:text-base py-6 px-1 lg:p-6 text-center cursor-pointer rounded-bl-xl`}
-                >
-                    تماس با من
-                </li>
-            </ul>
-            <div className="flex items-center gap-2 absolute bottom-5">
-                <a href='https://www.instagram.com/mkamran.ir' target='_blank'>
-                    <FaInstagram className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
-                </a>
-                <a href='https://github.com/gitkamran' target='_blank'>
-                    <FaGithub className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
-                </a>
-            </div>
-        </nav>
-    )
-}
+const NavBox = () => {
+  const links = getLinks();
+  return (
+    <nav className="fixed right-0 top-0 bottom-0 hidden md:flex justify-center items-center">
+      <ul className="bg-indigo-200 rounded-l-3xl flex flex-col justify-around shadow-md shadow-indigo-300 overflow-hidden">
+        {links.map((l) => (
+          <NavLink
+            key={l.id}
+            link={l.link}
+            title={l.title}
+            start={l.start}
+            end={l.end}
+          />
+        ))}
+      </ul>
+      <ul className="flex items-center gap-2 absolute bottom-5">
+        <li>
+          <a href="https://www.instagram.com/mkamran.ir" target="_blank">
+            <FaInstagram className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/gitkamran" target="_blank">
+            <FaGithub className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
-export default NavBox
+export default NavBox;
