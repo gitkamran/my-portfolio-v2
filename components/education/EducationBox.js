@@ -39,7 +39,7 @@ const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
           setLinkImage(src);
           setShowImage(true);
         }}
-        className="flex items-center justify-center min-h-[180px] w-full rounded-2xl overflow-hidden cursor-pointer focus:outline-none object-center object-cover"
+        className="flex items-center justify-center h-[220px] xl:h-[160px] w-full rounded-2xl overflow-hidden cursor-pointer focus:outline-none object-center object-cover"
       >
         <Image
           src={src}

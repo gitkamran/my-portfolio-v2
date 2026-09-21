@@ -2,11 +2,11 @@
   "fullName": "محمد کامران",
   "title": "برنامه‌نویس وب | فول‌استک",
   "location": "کرج، ایران",
-  "birthYear": "۱۳۷۱",
+  "birthYear": "1371",
   "degree": "کارشناسی کامپیوتر",
   "email": "mkamran.ir@gmail.com",
-  "phone": "",
-  "summary": "برنامه‌نویس وب با ۵ سال سابقه کار حرفه‌ای در شرکت‌های دولتی و خصوصی. متخصص در Next.js، React، Node.js و TypeScript. پیش‌تر گرافیست بوده‌ام و چند سال وردپرس کار کرده‌ام. هم‌اکنون روی نرم‌افزار مدیریت پروژه اختصاصی خودم کار می‌کنم.",
+  "phone": "09369139993",
+  "summary": "توسعه‌دهنده اپلیکیشن‌های مقیاس‌پذیر وب.",
   "resumeUrl": "/resume.pdf",
-  "avatar": "/avatar.jpg"
+  "avatar": "/assets/images/mk.webp"
 }

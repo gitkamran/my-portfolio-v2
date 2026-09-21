@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Web Design Pack",
+    "desc": "html, css, bootstrap, sass, javascript, git and github",
+    "courseDur": "150",
+    "score": "100",
+    "src": "/assets/images/education/web-design-pack.webp",
+    "alt": "web desgin pack course"
+  },
+  {
+    "title": "React Js",
+    "desc": "react js, node js",
+    "courseDur": "40",
+    "score": "89",
+    "src": "/assets/images/education/reactjs.webp",
+    "alt": "react js course"
+  },
+  {
+    "title": "Photoshop and Illustrator",
+    "desc": "adobe photoshop and adobe illustrator",
+    "courseDur": "80",
+    "score": "100",
+    "src": "/assets/images/education/ps-ai.webp",
+    "alt": "photoshop and illustrator course"
+  }
+]
