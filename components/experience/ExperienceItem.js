@@ -12,10 +12,12 @@ const ExperienceItem = ({
   return (
     <div className="flex flex-col gap-2 w-full p-4 relative">
       <div className="absolute top-0 bottom-0 -right-6 hidden w-0.5 bg-indigo-500 md:block" />
+      <div className="absolute top-0 bottom-0 right-0 w-0.5 bg-indigo-500 md:hidden" />
       <span className="absolute -right-14 top-4 hidden h-16 w-16 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold shadow-md md:flex text-white">
         {period}
       </span>
-      <span className="md:hidden bg-indigo-500 text-xs font-bold shadow-md text-white p-2 rounded-lg w-fit">
+      <span className="md:hidden bg-indigo-500 text-xs font-bold shadow-md text-white p-2 rounded-lg w-fit relative">
+        <div className="absolute top-1/2 -translate-y-1/2 -right-4 h-0.5 w-4 bg-indigo-500" />
         {period}
       </span>
       <div className="flex items-center gap-4 w-full">
@@ -37,7 +39,7 @@ const ExperienceItem = ({
         ))}
       </div>
       <p className="text-neutral-500 text-sm leading-7">{description}</p>
-      <div className="flex flex-col gap-3 border-r border-neutral-300 pr-4 border-b border-b-neutral-300 pb-4">
+      <div className="flex flex-col gap-3 border-r border-neutral-300 pr-4 md:border-b border-b-neutral-300 md:pb-4">
         {highlights.map((h, i) => (
           <p key={i} className="text-neutral-500 text-sm">
             {h}
