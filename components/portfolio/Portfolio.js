@@ -22,7 +22,7 @@ const PortfolioComp = () => {
     }
   }, [contentPortfolio]);
   return (
-    <div className="flex flex-col items-center justify-center gap-4 max-w-sm md:max-w-2xl my-14 md:my-20 px-4 md:px-0 mx-auto">
+    <div className="flex flex-col items-center justify-center gap-4 max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-3xl my-14 md:my-20 px-4 md:px-0 mx-auto">
       <NavPortfolio
         setContentPortfolio={setContentPortfolio}
         contentPortfolio={contentPortfolio}
