@@ -4,7 +4,7 @@
     "items": [
       {
         "name": "React",
-        "level": 95,
+        "level": 90,
         "image": "/assets/images/skills/react.svg"
       },
       {
@@ -14,7 +14,7 @@
       },
       {
         "name": "Redux",
-        "level": 95,
+        "level": 85,
         "image": "/assets/images/skills/redux.svg"
       },
       {
@@ -24,17 +24,17 @@
       },
       {
         "name": "TypeScript",
-        "level": 80,
+        "level": 85,
         "image": "/assets/images/skills/typescript.svg"
       },
       {
         "name": "Tailwind CSS",
-        "level": 95,
+        "level": 90,
         "image": "/assets/images/skills/tailwindcss.svg"
       },
       {
         "name": "HTML/CSS",
-        "level": 95,
+        "level": 85,
         "image": "/assets/images/skills/css.svg"
       }
     ]
@@ -44,12 +44,12 @@
     "items": [
       {
         "name": "Node.js",
-        "level": 90,
+        "level": 85,
         "image": "/assets/images/skills/nodejs-icon.svg"
       },
       {
         "name": "Express",
-        "level": 90,
+        "level": 85,
         "image": "/assets/images/skills/express.svg"
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "name": "MySQL",
-        "level": 75,
+        "level": 70,
         "image": "/assets/images/skills/mysql.svg"
       },
       {
@@ -74,7 +74,7 @@
       },
       {
         "name": "RESTful API",
-        "level": 90,
+        "level": 80,
         "image": "/assets/images/skills/api.svg"
       }
     ]
@@ -84,10 +84,10 @@
     "items": [
       {
         "name": "Docker",
-        "level": 80,
+        "level": 75,
         "image": "/assets/images/skills/docker.svg"
       },
-      { "name": "Git", "level": 90, "image": "/assets/images/skills/git.svg" },
+      { "name": "Git", "level": 80, "image": "/assets/images/skills/git.svg" },
       {
         "name": "Figma",
         "level": 70,
