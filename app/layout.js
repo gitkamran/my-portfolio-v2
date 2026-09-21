@@ -2,12 +2,6 @@ import NavBox from "@/components/nav-box/NavBox";
 import NavMobileBox from "@/components/nav-box/NavMobileBox";
 import "./globals.css";
 
-export const metadata = {
-  title: "Mohammad Kamran | Portfolio",
-  description:
-    "Personal Website And Portfolio Of Mohammad Kamran - وبسایت شخصی محمد کامران | برنامه نویس JavaScript, React js, Next js, Node js",
-};
-
 export const viewport = {
   themeColor: "#e0e7ff",
 };
