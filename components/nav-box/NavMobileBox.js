@@ -3,7 +3,8 @@ import { useState } from "react";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import NavLink from "./NavLink";
-import { getLinks } from "@/app/lib/data";
+import { getLinks, getSocials } from "@/app/lib/data";
+import Image from "next/image";
 
 const NavMobileBox = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -12,6 +13,7 @@ const NavMobileBox = () => {
   };
 
   const links = getLinks();
+  const socials = getSocials();
 
   return (
     <div className="relative md:hidden">
@@ -37,20 +39,28 @@ const NavMobileBox = () => {
               title={l.title}
               start={l.start}
               end={l.end}
+              onClick={() => setShowMenu(false)}
             />
           ))}
         </ul>
         <ul className="flex items-center gap-2 absolute bottom-5 left-1/2 -translate-x-1/2 z-50">
-          <li>
-            <a href="https://www.instagram.com/mkamran.ir" target="_blank">
-              <FaInstagram className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/gitkamran" target="_blank">
-              <FaGithub className="text-indigo-500 text-3xl bg-neutral-100 rounded-md" />
-            </a>
-          </li>
+          {socials.map((s, i) => (
+            <li key={i}>
+              <a
+                href={s.url}
+                target="_blank"
+                className="flex items-center justify-center bg-indigo-500 p-1 rounded-full w-8 h-8"
+              >
+                <Image
+                  src={s.icon}
+                  alt={s.name}
+                  width={64}
+                  height={64}
+                  className="w-7"
+                />
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>

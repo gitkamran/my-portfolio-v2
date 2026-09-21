@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-const Pictures = () => {
+const Pictures = ({ image, fullName }) => {
   const [zome, setZome] = useState(false);
 
   return (
     <div className="w-[200px] overflow-hidden rounded-3xl shadow-md shadow-indigo-300">
       <Image
-        src="/assets/images/mk.webp"
-        alt="محمد کامران"
+        src={image}
+        alt={fullName}
         width={800}
         height={800}
         priority

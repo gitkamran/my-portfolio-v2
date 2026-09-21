@@ -1,14 +1,9 @@
 [
   {
     "id": "link_1",
-    "title": "خانه",
+    "title": "درباره‌من",
     "link": "/",
     "start": true
-  },
-  {
-    "id": "link_2",
-    "title": "درباره‌ من",
-    "link": "/about"
   },
   {
     "id": "link_3",
