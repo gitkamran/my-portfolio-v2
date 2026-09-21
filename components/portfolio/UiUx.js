@@ -1,13 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import UIUX from "@/UIUX.json";
 import { useState } from "react";
 import { HiOutlineX } from "react-icons/hi";
+import { getUiux } from "@/app/lib/data";
 
 const UiUx = () => {
   const [linkImage, setLinkImage] = useState("");
   const [showImage, setShowImage] = useState(false);
+
+  const uiux = getUiux();
   return (
     <div className="flex flex-col gap-4 my-14 px-4 md:px-0 w-full">
       <h2 className="text-neutral-600 text-sm md:text-base">
@@ -21,22 +23,22 @@ const UiUx = () => {
         </a>
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto w-full">
-        {UIUX.map((img, i) => (
+        {uiux.map((img, i) => (
           <div
             key={i}
             onClick={() => {
               setLinkImage(img.image);
               setShowImage(true);
             }}
-            className="cursor-pointer focus:outline-none rounded-2xl outline outline-2 outline-neutral-300 overflow-hidden md:h-[128px] w-full object-cover"
+            className="cursor-pointer focus:outline-none rounded-2xl outline outline-2 outline-neutral-300 overflow-hidden h-[128px] w-full"
           >
             <Image
               src={img.image}
               alt="طراحی UIUX پلتفرم تبلیغات آنلاین هایلایت"
               width={200}
-              height={113}
+              height={200}
               priority
-              className="w-auto h-full"
+              className="w-full h-auto"
             />
           </div>
         ))}
