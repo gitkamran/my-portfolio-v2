@@ -64,12 +64,12 @@
       },
       {
         "name": "SocketIO",
-        "level": 60,
+        "level": 70,
         "image": "/assets/images/skills/socket-io.svg"
       },
       {
         "name": "Redis",
-        "level": 65,
+        "level": 70,
         "image": "/assets/images/skills/redis.svg"
       },
       {

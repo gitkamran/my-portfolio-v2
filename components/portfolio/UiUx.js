@@ -22,7 +22,7 @@ const UiUx = () => {
           هایلات
         </a>
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mx-auto w-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto w-full">
         {uiux.map((img, i) => (
           <div
             key={i}
@@ -30,13 +30,13 @@ const UiUx = () => {
               setLinkImage(img.image);
               setShowImage(true);
             }}
-            className="cursor-pointer focus:outline-none rounded-2xl outline outline-2 outline-neutral-300 overflow-hidden h-[128px] w-full"
+            className="cursor-pointer focus:outline-none rounded-2xl outline outline-2 outline-neutral-300 overflow-hidden h-[180px] md:h-[160px] lg:h-[120px] w-full flex items-center justify-center"
           >
             <Image
               src={img.image}
               alt="طراحی UIUX پلتفرم تبلیغات آنلاین هایلایت"
-              width={200}
-              height={200}
+              width={800}
+              height={800}
               priority
               className="w-full h-auto"
             />
