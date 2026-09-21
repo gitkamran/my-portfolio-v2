@@ -8,7 +8,7 @@ const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
   const [linkImage, setLinkImage] = useState("");
   const [showImage, setShowImage] = useState(false);
   return (
-    <div className="flex flex-col justify-between gap-2 bg-neutral-300/50 p-2 rounded-md shadow-md shadow-indigo-300">
+    <div className="flex flex-col justify-between gap-2 bg-neutral-300/50 p-2 rounded-2xl shadow-md shadow-indigo-300">
       <div className="flex flex-col gap-2 justify-between">
         <div className="flex flex-col gap-0">
           <h2 className="text-neutral-600 text-lg text-left">{title}</h2>
@@ -39,15 +39,15 @@ const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
           setLinkImage(src);
           setShowImage(true);
         }}
-        className="min-h-[141px] w-auto h-auto cursor-pointer focus:outline-none"
+        className="flex items-center justify-center min-h-[180px] w-full rounded-2xl overflow-hidden cursor-pointer focus:outline-none object-center object-cover"
       >
         <Image
           src={src}
           alt={alt}
           width={200}
-          height={141}
+          height={180}
           priority
-          className="w-auto h-auto rounded-md"
+          className="w-auto h-auto"
         />
       </div>
       {showImage && (
@@ -58,7 +58,7 @@ const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
           >
             <HiOutlineX
               onClick={() => setShowImage(false)}
-              className="cursor-pointer absolute top-2 right-2 text-4xl text-indigo-500"
+              className="cursor-pointer absolute top-2 left-2 text-5xl text-indigo-500"
             />
           </div>
           <div className="z-50 fixed flex items-center justify-center p-2">
@@ -68,7 +68,7 @@ const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
               width={800}
               height={600}
               priority
-              className="w-auto h-auto rounded-md"
+              className="w-auto h-auto rounded-2xl"
             />
           </div>
         </div>

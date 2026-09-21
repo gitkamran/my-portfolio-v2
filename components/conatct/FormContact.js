@@ -39,7 +39,7 @@ const FormContact = () => {
         }
     };
     return (
-        <div className="flex flex-col gap-2 p-4 w-full md:w-auto bg-indigo-100 rounded-md">
+        <div className="flex flex-col gap-2 p-4 w-full bg-indigo-100 rounded-2xl">
             <form onSubmit={handleSubmit} className="flex flex-col gap-2">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                     <div className="flex flex-col gap-0.5 w-full">
@@ -47,7 +47,7 @@ const FormContact = () => {
                         <input
                             type="text"
                             id="fullname"
-                            className="p-2 rounded-md focus:outline-indigo-300 shadow-md shadow-indigo-300"
+                            className="p-2 rounded-2xl focus:outline-indigo-300 shadow-md shadow-indigo-300"
                             ref={fullnameRef}
                             placeholder="محمد کامران"
                         />
@@ -60,7 +60,7 @@ const FormContact = () => {
                         <input
                             type="text"
                             id="email"
-                            className="p-2 rounded-md focus:outline-indigo-300 shadow-md shadow-indigo-300"
+                            className="p-2 rounded-2xl focus:outline-indigo-300 shadow-md shadow-indigo-300"
                             ref={emailRef}
                             placeholder="your_email@email.com"
                         />
@@ -74,7 +74,7 @@ const FormContact = () => {
                     <textarea
                         rows={6}
                         id="message"
-                        className="p-2 rounded-md focus:outline-indigo-300 shadow-md shadow-indigo-300"
+                        className="p-2 rounded-2xl focus:outline-indigo-300 shadow-md shadow-indigo-300 resize-none"
                         ref={messageRef}
                         placeholder="پیام خود را اینجا بنویسید..."
                     />
@@ -82,7 +82,7 @@ const FormContact = () => {
                         <span className="text-sm text-red-500 pt-1">{error.message.message}</span>
                     }
                 </div>
-                <button type="submit" className="mt-2 p-2 rounded-md bg-indigo-500 text-white w-fit shadow-md shadow-indigo-300">ارسال پیام</button>
+                <button type="submit" className="mt-2 p-2 px-4 rounded-2xl bg-indigo-500 text-white w-fit shadow-md shadow-indigo-300">ارسال پیام</button>
             </form>
             {success &&
                 <span className="text-sm bg-green-700 text-white p-2 text-center rounded-md">{error}</span>
