@@ -5,6 +5,7 @@ import skillsData from "@/data/skills.json";
 import socialsData from "@/data/socials.json";
 import seoData from "@/data/seo.json";
 import linksData from "@/data/links.json";
+import logosData from "@/data/logos.json";
 
 export const getProfile = () => profileData;
 export const getExperience = () => experienceData;
@@ -13,3 +14,4 @@ export const getSkills = () => skillsData;
 export const getSocials = () => socialsData;
 export const getSeo = () => seoData;
 export const getLinks = () => linksData;
+export const getLogos = () => logosData;

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "logo_1",
+    "title": "طراحی لوگو هایلایت",
+    "description": "هایلایت پلتفرم تبلیغات آنلاین صنعت و ساختمان ایران می باشد.",
+    "image": "/assets/images/portfolio/logo/logo-hilite.svg"
+  },
+  {
+    "id": "logo_2",
+    "title": "طراحی لوگو حمید عیوضی",
+    "description": "حمید عیوضی مدرس دوره های ارز دیجیتال",
+    "image": "/assets/images/portfolio/logo/logo-hamideyvazi.svg"
+  },
+  {
+    "id": "logo_3",
+    "title": "طراحی لوگو کافه پاروت",
+    "description": "کافه پاروت خرید آنلاین لوازم نگهداری حیوانات خانگی",
+    "image": "/assets/images/portfolio/logo/logo-cafeparrot.png"
+  },
+  {
+    "id": "logo_4",
+    "title": "طراحی لوگو بیوکالکشن",
+    "description": "بیوکالکشن تولید و عرضه تی‌شرت‌های چاپی",
+    "image": "/assets/images/portfolio/logo/logo-beucollection.jpg"
+  },
+  {
+    "id": "logo_5",
+    "title": "طراحی لوگو ترلوفا",
+    "description": "ترلوفا نرم‌افزار مدیریت پروژه و تیم به فارسی",
+    "image": "/assets/images/portfolio/logo/logo-trellofa.svg"
+  }
+]
