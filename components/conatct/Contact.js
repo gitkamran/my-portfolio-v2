@@ -1,15 +1,16 @@
-import ContactList from "./ContactList"
-import FormContact from "./FormContact"
+import ContactList from "./ContactList";
+import FormContact from "./FormContact";
 
 const ContactComp = () => {
   return (
-    <div className="flex items-center gap-4 justify-center w-full min-h-screen bg-neutral-100 px-4 md:px-0">
-      <div className="w-full md:w-[60%] lg:w-[50%] xl:w-[40%] space-y-2">
-        <ContactList />
-        <FormContact />
+    <div className="flex items-center justify-center h-full max-w-md md:max-w-xl lg:max-w-2xl xl:max-w-3xl px-4 md:px-0 mx-auto">
+      <div className="my-14 md:my-20 w-full flex flex-col gap-4">
+
+      <ContactList />
+      <FormContact />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactComp
+export default ContactComp;

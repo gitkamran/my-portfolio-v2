@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const Logo = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div className="flex flex-col gap-2 bg-neutral-200/50 rounded-2xl shadow-md shadow-indigo-300 overflow-hidden bg-neutral-300">
-        <div className="overflow-hidden">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
+      <div className="flex flex-col gap-2 bg-neutral-200/50 rounded-2xl shadow-md shadow-indigo-300 overflow-hidden bg-neutral-300 w-full">
+        <div className="overflow-hidden w-full min-h-[260px] flex items-center justify-center">
           <Image
             src="/assets/images/portfolio/logo/logo-hilite.svg"
             alt="هایلایت | پلتفرم تبلیغات آنلاین صنعت و ساختمان"
             width={200}
             height={200}
             priority
-            className="w-auto h-auto"
+            className="w-full h-auto"
           />
         </div>
         <div className="w-full flex flex-col gap-2 p-3">
@@ -21,15 +21,15 @@ const Logo = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-2 bg-neutral-200/50 rounded-2xl shadow-md shadow-indigo-300 overflow-hidden bg-neutral-300">
-        <div className="overflow-hidden">
+      <div className="flex flex-col gap-2 bg-neutral-200/50 rounded-2xl shadow-md shadow-indigo-300 overflow-hidden bg-neutral-300 w-full">
+        <div className="overflow-hidden w-full min-h-[260px] flex items-center justify-center">
           <Image
             src="/assets/images/portfolio/logo/logo-hamideyvazi.svg"
             alt="حمید عیوضی | مدرس ارز های دیجیتال"
             width={200}
             height={200}
             priority
-            className="w-auto h-auto"
+            className="w-full h-auto"
           />
         </div>
         <div className="w-full flex flex-col gap-2 p-3">
@@ -39,15 +39,15 @@ const Logo = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col gap-2 bg-neutral-200/50 rounded-2xl shadow-md shadow-indigo-300 overflow-hidden bg-neutral-300">
-        <div className="overflow-hidden">
+      <div className="flex flex-col gap-2 bg-neutral-200/50 rounded-2xl shadow-md shadow-indigo-300 overflow-hidden bg-neutral-300 w-full">
+        <div className="overflow-hidden w-full min-h-[260px] flex items-center justify-center">
           <Image
             src="/assets/images/portfolio/logo/logo-cafeparrot.png"
             alt="کافه پاروت | خرید آنلاین لوازم نگهداری حیوانات خانگی"
             width={200}
             height={200}
             priority
-            className="w-auto h-auto"
+            className="w-full h-auto"
           />
         </div>
         <div className="w-full flex flex-col gap-2 p-3">
