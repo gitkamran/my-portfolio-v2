@@ -7,7 +7,7 @@ const ImageViewer = ({ src, alt, setShowImage, width = 800, height = 600 }) => {
     <div className="fixed inset-0 flex items-center justify-center w-full h-full">
       <div
         onClick={() => setShowImage(null)}
-        className="fixed inset-0 bg-white/30 backdrop-blur-sm z-50 p-4"
+        className="fixed inset-0 bg-indigo-200/70 z-50 p-4"
       >
         <HiOutlineX
           onClick={() => setShowImage(null)}
