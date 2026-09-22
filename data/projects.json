@@ -56,9 +56,9 @@
     "longDescription": "در این سامانه برای فرانت‌اند از React.js و Tailwind استفاده شده است. این سامانه در شرکت آب و فاضلاب استان تهران نصب و راه‌اندازی شده است. همچنین در آموزش و پرورش چند استان نیز پیاده سازی شده است. دارای ماژول‌های متنوع و مهمی از جمله ممیزی، ریسک، اقدام اصلاحی، برنامه اجرایی، مدیریت فرایند و مدیریت جلسات می باشد. همچنین دارای امکانات دیگری از جمله چت خصوصی و چت گروهی، دفترچه یادداشت، تقویم کاملا فارسی می باشد. توسعه سمت بک‌اند نیز توسط تیم بک‌اند با Django و Postgresql انجام شده است.",
     "image": "/assets/images/projects/hamgara.webp",
     "gallery": [
-      "/assets/images/projects/khamgara_1.webp",
-      "/assets/images/projects/khamgara_2.webp",
-      "/assets/images/projects/khamgara_3.webp"
+      "/assets/images/projects/hamgara_1.webp",
+      "/assets/images/projects/hamgara_2.webp",
+      "/assets/images/projects/hamgara_3.webp"
     ],
     "url": "",
     "repo": "",
