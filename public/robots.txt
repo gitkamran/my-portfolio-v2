@@ -1,5 +1,0 @@
-# Allow all crawlers
-User-agent: *
-Allow: /
-
-Sitemap: https://mkamran.ir/sitemap_index.xml

@@ -4,11 +4,11 @@
     "title": "نرم‌افزار مدیریت پروژه ترلوفا",
     "description": "نرم‌افزار جامع مدیریت پروژه با قابلیت تعریف پروژه(فضای کاری)، تیم(بورد)، وظیفه(کارت)، چک‌لیست، مهلت انجام، نظرات و ...",
     "longDescription": "نقشه راه این نرم‌افزار شامل ماژول‌های مدیریت تسک، تقویم، چت تیمی و داشبورد تحلیلی است. با React.js و Node.js پیاده‌سازی شده و از MongoDB برای ذخیره‌سازی داده استفاده می‌کند. همچنین استفاده از هوش مصنوعی جهت ساخت چک لیست مرتبط با وظیفه نیز به زودی به این پروژه اضافه می شود.",
-    "image": "/projects/trellofa.webp",
+    "image": "/assets/images/projects/trellofa.webp",
     "gallery": [
-      "/projects/trellofa_1.webp",
-      "/projects/trellofa_2.webp",
-      "/projects/trellofa_3.webp"
+      "/assets/images/projects/trellofa_1.webp",
+      "/assets/images/projects/trellofa_2.webp",
+      "/assets/images/projects/trellofa_3.webp"
     ],
     "url": "https://trellofa.ir",
     "repo": "",
@@ -29,11 +29,11 @@
     "title": "سامانه معاونت مدیریت توسعه و منابع وزارت تعاون، کار و رفاه اجتماعی",
     "description": "سامانه معاونت مدیریت توسعه و منابع با قابلیت دریافت داده‌ها قبض های انرژی از طریق API، ثبت و مشاهده ساختمان‌ها، خودرو، پرسنل، سمت و دارایی‌ها و نمایش و مقایسه داده ها به وسیله نمودار",
     "longDescription": "این اپلیکیشن شامل دریافت داده‌های انرژی از قبیل آب، برق، گاز، گازویل و انرژی سبز از طریق API و ذخیره داده آن روی دیتابیس MongoDB می باشد. همچنین نمودار سالانه قبض ها و همچنین مقایسه سالانه کارکرد کنتور در یک سال با یکدیگر. همچنین دریافت اطلاعات ساختمان‌ها و مشخص کردن مصارف انرژی هر ساختمان، دریافت اطلاعات کارمندان و همینطور دارایی‌ها که مشخص می شود هر شخص در کدام ساختمان و کدام اتاق و چه دارایی در اختیار دارد. همینطور دریافت اطلاعات خودروها و اینکه هر شخص با توجه به سمت چه خودرویی در اختیار دارد، مشخصات فنی خودرو، سوابق بیمه و نگهداری و تعمیر آن. همچنین دسترسی ها متنوع شامل دسترسی های ستادی، استانی و مدیریتی و کارمندی که با توجه به نوع دسترسی پنل کاربری متفاوتی به کاربر نمایش داده می شود.",
-    "image": "/projects/kar_refah.webp",
+    "image": "/assets/images/projects/kar_refah.webp",
     "gallery": [
-      "/projects/kar_refah_1.webp",
-      "/projects/kar_refah_2.webp",
-      "/projects/kar_refah_3.webp"
+      "/assets/images/projects/kar_refah_1.webp",
+      "/assets/images/projects/kar_refah_2.webp",
+      "/assets/images/projects/kar_refah_3.webp"
     ],
     "url": "",
     "repo": "",
@@ -54,11 +54,11 @@
     "title": "سامانه مدیریت کیفیت همگرا",
     "description": "سامانه مدیریت کیفیت همگرا دارای ماژول های متنوع از جمله ریسک، ممیزی، اقدام اصلاحی، برنامه اجرایی، مدیریت فرایند و مدیریت جلسات می باشد.",
     "longDescription": "در این سامانه برای فرانت‌اند از React.js و Tailwind استفاده شده است. این سامانه در شرکت آب و فاضلاب استان تهران نصب و راه‌اندازی شده است. همچنین در آموزش و پرورش چند استان نیز پیاده سازی شده است. دارای ماژول‌های متنوع و مهمی از جمله ممیزی، ریسک، اقدام اصلاحی، برنامه اجرایی، مدیریت فرایند و مدیریت جلسات می باشد. همچنین دارای امکانات دیگری از جمله چت خصوصی و چت گروهی، دفترچه یادداشت، تقویم کاملا فارسی می باشد. توسعه سمت بک‌اند نیز توسط تیم بک‌اند با Django و Postgresql انجام شده است.",
-    "image": "/projects/hamgara.webp",
+    "image": "/assets/images/projects/hamgara.webp",
     "gallery": [
-      "/projects/khamgara_1.webp",
-      "/projects/khamgara_2.webp",
-      "/projects/khamgara_3.webp"
+      "/assets/images/projects/khamgara_1.webp",
+      "/assets/images/projects/khamgara_2.webp",
+      "/assets/images/projects/khamgara_3.webp"
     ],
     "url": "",
     "repo": "",
@@ -72,11 +72,11 @@
     "title": "سامانه مدیریت محصولات شرکت شاهین مفصل",
     "description": "سامانه مدیریت محصولات، مواد اولیه و قیمت‌گذاری شرکت شاهین مفصل با امکان دریافت اطلاعات محصول، مواد اولیه خام، قیمت و فرمول ساخت از دیتابیس نرم افزار شماران و انتقال به دیتابیس MongoDB سامانه و ایجاد تاریخچه محصول.",
     "longDescription": "این سامانه از طریق اتصال به دیتابیس SQLServer نرم افزار شماران در سرور شرکت تمام اطلاعات محصولات، مواد اولیه خام، قیمت، فرمول، گروه، تامین کننده و هر اطلاعات دیگر دریافت و به دیتابیس MongoDB منتقل می کند. این عمل بلافاصله بعد از هر تغییر در محصول، قیمت یا مواد تشکیل دهنده بلافاصله سینک شده و اطلاعات جدید را دریافت و محصول جدید را با ورژن جدید ذخیره و محصولات قبلی را به صورت تاریخچه در دیتابیس ذخیره می کند. تا یک تاریخچه کامل از محصول، مواد تشکیل دهنده آن، قیمت جدید و هر اطلاعات دیگری که لازم هست نگهداری و برای نمایش به صورت آماری در اختیار شرکت قرار بگیرد.",
-    "image": "/projects/shm.webp",
+    "image": "/assets/images/projects/shm.webp",
     "gallery": [
-      "/projects/shm.webp",
-      "/projects/shm.webp",
-      "/projects/shm.webp"
+      "/assets/images/projects/shm.webp",
+      "/assets/images/projects/shm.webp",
+      "/assets/images/projects/shm.webp"
     ],
     "url": "",
     "repo": "",
@@ -90,11 +90,11 @@
     "title": "وب اپلیکیشن آکادمی همگرا",
     "description": "وب اپلیکیشن آکادمی همگرا برای نمایش  اطلاعات کلاس‌های آنلاین و حضوری در دوره‌های متنوع آموزشی از قبلی مدیریت و فناوری اطلاعات می باشد. کاربران می توانند دوره دلخواه را در وب‌سایت مشاهده و بعد از ثبت نام در دوره شرکت کنند.",
     "longDescription": "در این وب اپلیکیشن دوره های آموزشی به صورت متنوع فیلتر و جستجو می شود و کاربر به راحتی به دوره مورد نظر دست پیدا می کند. همچنین این وب اپلیکیشن دارای پنل مدیریتی می باشد و ادمین می تواند دوره ها، برچسب ها و دسته ها را اضافه کند.",
-    "image": "/projects/hamgara_academy.webp",
+    "image": "/assets/images/projects/hamgara_academy.webp",
     "gallery": [
-      "/projects/hamgara_academy.webp",
-      "/projects/hamgara_academy.webp",
-      "/projects/hamgara_academy.webp"
+      "/assets/images/projects/hamgara_academy.webp",
+      "/assets/images/projects/hamgara_academy.webp",
+      "/assets/images/projects/hamgara_academy.webp"
     ],
     "url": "",
     "repo": "",
@@ -108,11 +108,11 @@
     "title": "وب اپلیکیشن فروشگاه اینترنتی رادمهر",
     "description": "در این وب اپلیکیشن کاربران می توانند به راحتی محصول مورد نظر را جستجو و فیلتر کنند، محصول را به سبد خرید اضافه و سپس پرداخت را انجام دهند.",
     "longDescription": "وب اپلیکیشن فروشگاه اینترنتی رادمهر دارای پنل مدیریت جهت مدیریت کاربران، محصولات، ایجاد محصول، برچسب، دسته بندی، برند و بنر می باشد. همچنین پنل کاربران دارای محصولات خریداری شده، محصولات مورد علاقه، اطلاعات کامل کاربر، آدرس و ارسال پیام به مدیر فروشگاه می باشد. کاربر می تواند محصول را جستجو و بر اساس دسته بندی، برچسب و برند بیابد، آنرا به سبد خرید اضافه و بعد از پرداخت محصول را دریافت کند.",
-    "image": "/projects/radmehr_hookah.webp",
+    "image": "/assets/images/projects/radmehr_hookah.webp",
     "gallery": [
-      "/projects/radmehr_hookah.webp",
-      "/projects/radmehr_hookah.webp",
-      "/projects/radmehr_hookah.webp"
+      "/assets/images/projects/radmehr_hookah.webp",
+      "/assets/images/projects/radmehr_hookah.webp",
+      "/assets/images/projects/radmehr_hookah.webp"
     ],
     "url": "",
     "repo": "",
@@ -126,11 +126,11 @@
     "title": "وب اپلیکیشن حمید عیوضی",
     "description": "این وب اپلیکیشن جهت فروش آموزش دوره های کسب درآمد اینترنتی توسط حمید عیوضی می باشد. کاربران می توانند بعد از ثبت نام دوره وارد پنل خود شوند و دوره خریداری شده را پخش یا دانلود کنند.",
     "longDescription": "در این وب اپلیکیشن کاربران می توانند اطلاعات دوره ها را مشاهده کنند و در صورت نیاز بعد از ثبت نام دوره را خریداری کنند و سپس در پنل کاربری دوره خریداری شده را مشاهده و آنرا پخش یا دانلود کنند. اطلاعات کامل خرید دوره، اطلاعات کاربری در پنل کاربر وجود دارد. همچنین پنل مدیریت جهت ساخت دوره جدید، مشاهده کاربران، اطلاعات کامل خرید کاربران نیز در پنل مدیریت وجود دارد.",
-    "image": "/projects/hamid_eyvazi.webp",
+    "image": "/assets/images/projects/hamid_eyvazi.webp",
     "gallery": [
-      "/projects/hamid_eyvazi.webp",
-      "/projects/hamid_eyvazi.webp",
-      "/projects/hamid_eyvazi.webp"
+      "/assets/images/projects/hamid_eyvazi.webp",
+      "/assets/images/projects/hamid_eyvazi.webp",
+      "/assets/images/projects/hamid_eyvazi.webp"
     ],
     "url": "",
     "repo": "",
@@ -144,11 +144,11 @@
     "title": "وب اپلیکیشن فروشگاه دانلود فایل",
     "description": "این وب اپلیکیشن برای فروش فایل می باشد که به کاربران اجازه جستجو و فیلتر محصولات فروشگاه فایلی را میدهد. در صورت لازم کاربر می تواند بعد از ثبت نام فایل را دانلود کند. همچنین فایل خریداری شده برای همیشه در پنل کاربر باقی می ماند.",
     "longDescription": "این وب اپلیکیشن دارای یک پنل مدیریت کامل جهت ایجاد محصول دانلودی، برچسب، دسته بندی و بنر های می باشد. همینطور یک پنل کاربری برای کاربرانی که ثبت نام کرده و قصد خرید فایل دارند ایجاد شده تا محصول خریداری شده برای همیشه در حساب آنها باقی بماند. کاربران به راحتی با جستجو و فیلتر می توانند فایل مورد نظر خود را پیدا و آنرا به سبد خرید انتقال دهند و در صورت پرداخت وجه فایل جهت دانلود برای کاربران باز می شود.",
-    "image": "/projects/fileshop.webp",
+    "image": "/assets/images/projects/fileshop.webp",
     "gallery": [
-      "/projects/fileshop.webp",
-      "/projects/fileshop.webp",
-      "/projects/fileshop.webp"
+      "/assets/images/projects/fileshop.webp",
+      "/assets/images/projects/fileshop.webp",
+      "/assets/images/projects/fileshop.webp"
     ],
     "url": "",
     "repo": "",
