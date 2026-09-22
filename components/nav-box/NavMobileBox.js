@@ -27,7 +27,7 @@ const NavMobileBox = () => {
       <nav
         className={
           showMenu
-            ? "fixed right-0 top-0 bottom-0 flex justify-center items-center ease-linear duration-500 z-40 bg-neutral-100/30 backdrop-blur-sm"
+            ? "fixed right-0 top-0 bottom-0 flex justify-center items-center ease-linear duration-500 z-40 bg-white/30 backdrop-blur-sm"
             : "fixed -right-[100%] top-0 bottom-0 flex justify-center items-center ease-linear duration-500"
         }
       >
