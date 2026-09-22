@@ -7,7 +7,6 @@ import { getUiux } from "@/app/lib/data";
 import ImageViewer from "../ui/ImageViewer";
 
 const UiUx = () => {
-  const [linkImage, setLinkImage] = useState("");
   const [showImage, setShowImage] = useState(null);
 
   const uiux = getUiux();
@@ -28,7 +27,6 @@ const UiUx = () => {
           <div
             key={i}
             onClick={() => {
-              setLinkImage(img.image);
               setShowImage(img.image);
             }}
             className="cursor-pointer focus:outline-none rounded-2xl outline outline-2 outline-neutral-300 overflow-hidden h-[180px] md:h-[160px] lg:h-[120px] w-full flex items-center justify-center"

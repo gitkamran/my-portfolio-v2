@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import { HiOutlineX, HiOutlineClock } from "react-icons/hi";
+import { HiOutlineClock } from "react-icons/hi";
 import { HiOutlineTrophy } from "react-icons/hi2";
+import ImageViewer from "../ui/ImageViewer";
 
 const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
-  const [linkImage, setLinkImage] = useState("");
-  const [showImage, setShowImage] = useState(false);
+  const [showImage, setShowImage] = useState(null);
   return (
     <div className="flex flex-col justify-between gap-2 bg-neutral-300/50 p-2 rounded-2xl shadow-md shadow-indigo-300">
       <div className="flex flex-col gap-2 justify-between">
@@ -36,8 +36,7 @@ const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
       </div>
       <div
         onClick={() => {
-          setLinkImage(src);
-          setShowImage(true);
+          setShowImage(src);
         }}
         className="flex items-center justify-center h-[220px] xl:h-[160px] w-full rounded-2xl overflow-hidden cursor-pointer focus:outline-none object-center object-cover"
       >
@@ -51,27 +50,7 @@ const EducationBox = ({ title, desc, courseDur, score, src, alt }) => {
         />
       </div>
       {showImage && (
-        <div className="fixed inset-0 flex items-center justify-center w-full h-full">
-          <div
-            onClick={() => setShowImage(false)}
-            className="fixed inset-0 bg-neutral-100/70 z-40 p-4"
-          >
-            <HiOutlineX
-              onClick={() => setShowImage(false)}
-              className="cursor-pointer absolute top-2 left-2 text-5xl text-indigo-500"
-            />
-          </div>
-          <div className="z-50 fixed flex items-center justify-center p-2">
-            <Image
-              src={linkImage}
-              alt={alt}
-              width={800}
-              height={600}
-              priority
-              className="w-auto h-auto rounded-2xl"
-            />
-          </div>
-        </div>
+        <ImageViewer src={showImage} alt={alt} setShowImage={setShowImage} />
       )}
     </div>
   );
