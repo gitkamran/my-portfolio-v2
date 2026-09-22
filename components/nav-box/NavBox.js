@@ -8,8 +8,8 @@ const NavBox = () => {
   const socials = getSocials();
 
   return (
-    <nav className="fixed right-0 top-0 bottom-0 hidden md:flex justify-center items-center">
-      <ul className="bg-indigo-200 rounded-l-3xl flex flex-col justify-around shadow-md shadow-indigo-300 overflow-hidden">
+    <nav className="fixed right-0 top-0 bottom-0 hidden md:flex justify-center items-center z-50">
+      <ul className="bg-white/30 backdrop-blur-sm rounded-l-3xl flex flex-col justify-around shadow-[0_0_10px] shadow-indigo-300 overflow-hidden">
         {links.map((l) => (
           <NavLink
             key={l.id}

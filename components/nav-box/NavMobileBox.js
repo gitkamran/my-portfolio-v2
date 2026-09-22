@@ -27,11 +27,11 @@ const NavMobileBox = () => {
       <nav
         className={
           showMenu
-            ? "fixed right-0 top-0 bottom-0 flex justify-center items-center ease-linear duration-500 z-40 bg-neutral-100/70"
+            ? "fixed right-0 top-0 bottom-0 flex justify-center items-center ease-linear duration-500 z-40 bg-white/30 backdrop-blur-sm"
             : "fixed -right-[100%] top-0 bottom-0 flex justify-center items-center ease-linear duration-500"
         }
       >
-        <ul className="bg-neutral-300 rounded-l-3xl flex flex-col justify-around shadow-md shadow-indigo-300 overflow-hidden">
+        <ul className="bg-white/10 rounded-l-3xl flex flex-col justify-around shadow-[0_0_10px] shadow-indigo-300 overflow-hidden">
           {links.map((l) => (
             <NavLink
               key={l.id}
