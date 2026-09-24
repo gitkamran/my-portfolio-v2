@@ -17,6 +17,7 @@ const WebAppItem = ({
 }) => {
   const [show, setShow] = useState(false);
   const [showImage, setShowImage] = useState(null);
+  console.log(showImage);
   return (
     <div className="flex flex-col gap-4 border-b border-b-indigo-400 last:border-none pb-4">
       <div className="flex flex-wrap items-end gap-2">
@@ -50,6 +51,15 @@ const WebAppItem = ({
       </div>
       {gallery.length > 0 && (
         <div className="flex flex-col gap-4">
+          {showImage && (
+            <ImageViewer
+              src={showImage}
+              alt={title}
+              setShowImage={setShowImage}
+              width={2704}
+              height={1682}
+            />
+          )}
           <h3 className="text-neutral-600 font-bold text-sm">تصاویر پروژه</h3>
           <div className="flex items-center flex-wrap gap-2">
             {gallery.map((g, i) => (
@@ -62,15 +72,6 @@ const WebAppItem = ({
                   className="rounded-2xl w-auto h-auto cursor-pointer"
                   onClick={() => setShowImage(g)}
                 />
-                {showImage && (
-                  <ImageViewer
-                    src={showImage}
-                    alt={title}
-                    setShowImage={setShowImage}
-                    width={2704}
-                    height={1682}
-                  />
-                )}
               </div>
             ))}
           </div>
