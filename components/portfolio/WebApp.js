@@ -18,6 +18,7 @@ const WebApp = () => {
           category={p.category}
           year={p.year}
           gallery={p.gallery}
+          notes={p.notes}
         />
       ))}
     </div>
