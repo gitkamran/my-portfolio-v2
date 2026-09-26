@@ -19,7 +19,7 @@ export async function POST(req) {
       return NextResponse.json({ msg: error.errors });
     } else {
       return NextResponse.json({
-        msg: ["امکان ارسال پیام وجود ندارد."],
+        msg: ["ارسال پیام با خطا مواجه شد."],
         faild: true
       });
     }

@@ -56,8 +56,8 @@ const WebAppItem = ({
               src={showImage}
               alt={title}
               setShowImage={setShowImage}
-              width={2704}
-              height={1682}
+              width={1352}
+              height={841}
             />
           )}
           <h3 className="text-neutral-600 font-bold text-sm">تصاویر پروژه</h3>
