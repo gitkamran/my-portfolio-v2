@@ -15,7 +15,7 @@ const ImageViewer = ({ src, alt, setShowImage, width = 800, height = 600 }) => {
         />
       </div>
 
-      <div className="z-50 fixed flex items-center justify-center w-[95%] md:w-[80%] h-auto">
+      <div className="z-50 absolute flex items-center justify-center h-full w-full md:w-[80%] p-4 md:p-16">
         <Image
           src={src}
           alt={alt}

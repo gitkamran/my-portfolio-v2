@@ -85,11 +85,11 @@ const FormContact = () => {
                 <button type="submit" className="mt-2 p-2 px-4 rounded-2xl bg-indigo-500 text-white w-fit shadow-md shadow-indigo-300">ارسال پیام</button>
             </form>
             {success &&
-                <span className="text-sm bg-green-700 text-white p-2 text-center rounded-md">{error}</span>
+                <span className="bg-green-700 text-white p-2 text-center rounded-2xl">{error}</span>
             }
             {
                 faild &&
-                < span className="text-sm bg-red-700 text-white p-2 text-center rounded-md">{error}</span>
+                < span className="bg-red-700 text-white p-2 text-center rounded-2xl">{error}</span>
             }
         </div >
     )

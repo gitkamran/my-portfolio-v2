@@ -57,6 +57,7 @@ const NavMobileBox = () => {
                   width={64}
                   height={64}
                   className="w-7"
+                  priority
                 />
               </a>
             </li>
