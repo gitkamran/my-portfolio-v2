@@ -1,7 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import { HiOutlineCube } from "react-icons/hi";
+import {
+  HiInformationCircle,
+  HiOutlineCube,
+  HiOutlineInformationCircle,
+} from "react-icons/hi";
 import ImageViewer from "../ui/ImageViewer";
 
 const WebAppItem = ({
@@ -14,10 +18,11 @@ const WebAppItem = ({
   category,
   year,
   gallery,
+  notes,
 }) => {
   const [show, setShow] = useState(false);
   const [showImage, setShowImage] = useState(null);
-  console.log(showImage);
+
   return (
     <div className="flex flex-col gap-4 border-b border-b-indigo-400 last:border-none pb-4">
       <div className="flex flex-wrap items-end gap-2">
@@ -49,6 +54,21 @@ const WebAppItem = ({
         <h3 className="text-neutral-600 font-bold text-sm">توضیحات</h3>
         <p className="text-neutral-500 text-sm leading-7">{description}</p>
       </div>
+      {notes && notes.length > 0 && (
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-1 text-neutral-600 whitespace-nowrap">
+            <HiOutlineInformationCircle className="" />
+            <h3 className="text-sm font-bold">نکات:</h3>
+          </div>
+          <div className="flex flex-col gap-2 border-r border-r-rose-500 pr-2">
+            {notes.map((n, i) => (
+              <span key={i} className="text-sm text-rose-500">
+                {n}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
       {gallery.length > 0 && (
         <div className="flex flex-col gap-4">
           {showImage && (
