@@ -4,10 +4,10 @@ import { HiOutlineX } from "react-icons/hi";
 
 const ImageViewer = ({ src, alt, setShowImage, width = 800, height = 600 }) => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center w-full h-full">
+    <div className="fixed inset-0 flex items-center justify-center w-full h-full p-4">
       <div
         onClick={() => setShowImage(null)}
-        className="fixed inset-0 bg-indigo-200/70 z-50 p-4"
+        className="fixed inset-0 bg-indigo-200/70 z-50"
       >
         <HiOutlineX
           onClick={() => setShowImage(null)}
@@ -15,7 +15,7 @@ const ImageViewer = ({ src, alt, setShowImage, width = 800, height = 600 }) => {
         />
       </div>
 
-      <div className="z-50 absolute flex items-center justify-center h-full w-full md:w-[80%] p-4 md:p-16">
+      <div className="z-50 fixed flex items-center justify-center w-[90%] md:w-[80%]">
         <Image
           src={src}
           alt={alt}
