@@ -117,7 +117,7 @@ const WebAppItem = ({
         <Link
           href={url}
           target="_blank"
-          className="bg-indigo-500 p-2 text-white text-sm w-fit rounded-md shadow-md shadow-indigo-300"
+          className="bg-indigo-500 p-2 text-white text-sm w-fit rounded-xl shadow-md shadow-indigo-300"
         >
           مشاهده وبسایت
         </Link>
