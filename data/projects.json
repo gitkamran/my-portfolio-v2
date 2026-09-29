@@ -116,12 +116,16 @@
       "/assets/images/projects/radmehrhookah_2.webp",
       "/assets/images/projects/radmehrhookah_3.webp"
     ],
-    "url": "",
+    "url": "https://danashoo.ir",
     "repo": "",
     "tech": ["Next.js", "Tailwind", "JavaScript", "Node.js", "MongoDB"],
     "category": "فول‌استک",
     "featured": false,
-    "year": "1402"
+    "year": "1402",
+    "notes": [
+      "این اپلیکیشن فقط برای نمایش در دامنه danashoo.ir قرار گرفته.",
+      "به دلیل استفاده از سرویس دهنده خارجی ممکن است اپلیکیشن کند باشد."
+    ]
   },
   {
     "id": "proj-7",
