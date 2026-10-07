@@ -24,10 +24,8 @@
     "featured": true,
     "year": "1404",
     "notes": [
-      "به صورت موقت این پروژه روی آی‌پی http://95.38.176.110 می باشد.",
-      "به زودی روی دامنه https://app.trellofa.ir ست می‌شود.",
       "لطفا برای مشاهده از دسکتاپ استفاده کنید.",
-      "بزودی نسخه ریسپانسیو و مخصوص موبایل ساخته می‌شود."
+      "نسخه ریسپانسیو و مخصوص موبایل در حال توسعه می باشد."
     ]
   },
   {
@@ -118,7 +116,7 @@
     ],
     "url": "https://danashoo.ir",
     "repo": "",
-    "tech": ["Next.js", "Tailwind", "JavaScript", "Node.js", "MongoDB"],
+    "tech": ["Next.js", "Tailwind", "JavaScript", "Node.js", "MongoDB", "Redis"],
     "category": "فول‌استک",
     "featured": false,
     "year": "1402",
