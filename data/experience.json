@@ -37,39 +37,25 @@
   {
     "id": "exp-3",
     "company": "شرکت خصوصی (فن‌آوای هوش مصنوعی)",
-    "role": "گرافیست و طراح وب",
+    "role": "و طراح وب",
     "period": "1401 - 1399",
     "location": "تهران",
-    "description": "طراحی گرافیک و پیاده‌سازی وب‌سایت‌های شرکتی با وردپرس",
+    "description": "طراحی و پیاده‌سازی اخصاصی وب‌سایت‌های شرکتی با وردپرس",
     "highlights": [
-      "طراحی لوگو، بروشور و کاتالوگ",
       "پیاده‌سازی بیش از ۱۰ وب‌سایت وردپرسی",
-      "سفارشی‌سازی قالب‌ها با HTML/CSS"
+      "سفارشی‌سازی قالب‌ها با HTML/CSS/JavaScript"
     ],
-    "tech": ["WordPress", "PHP", "HTML", "CSS", "Photoshop", "Illustrator"]
+    "tech": ["WordPress", "PHP", "HTML", "CSS", "JavaScript"]
   },
 
   {
     "id": "exp-2",
     "company": "شرکت خصوصی (هرمس ویس)",
-    "role": "گرافیست و طراح وب",
-    "period": "1399 - 1399",
-    "location": "تهران",
-    "description": "طراحی گرافیک چاپی و پشتیبانی وب‌سایت‌ وردپرسی شرکت",
-    "highlights": [
-      "طراحی لوگو، بروشور و کاتالوگ",
-      "پشتیبانی وب‌سایت وردپرسی شرکت"
-    ],
-    "tech": ["WordPress", "Photoshop", "Illustrator"]
-  },
-  {
-    "id": "exp-1",
-    "company": "چاپخانه (دورکاری)",
-    "role": "گرافیست",
+    "role": "طراح وب",
     "period": "1399 - 1398",
     "location": "تهران",
-    "description": "طراحی گرافیک چاپی",
-    "highlights": ["طراحی لوگو، بروشور، لیبل، جعبه محصول و کاتالوگ"],
-    "tech": ["Photoshop", "Illustrator"]
+    "description": "طراحی و پشتیبانی وب‌سایت‌ وردپرسی شرکت",
+    "highlights": ["طراحی پشتیبانی وب‌سایت وردپرسی شرکت"],
+    "tech": ["WordPress", "HTML", "CSS", "JavaScript"]
   }
 ]
