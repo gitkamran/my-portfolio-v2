@@ -14,7 +14,7 @@
       },
       {
         "name": "Redux",
-        "level": 85,
+        "level": 90,
         "image": "/assets/images/skills/redux.svg"
       },
       {
@@ -24,7 +24,7 @@
       },
       {
         "name": "TypeScript",
-        "level": 85,
+        "level": 90,
         "image": "/assets/images/skills/typescript.svg"
       },
       {
@@ -34,7 +34,7 @@
       },
       {
         "name": "HTML/CSS",
-        "level": 85,
+        "level": 90,
         "image": "/assets/images/skills/css.svg"
       }
     ]
@@ -49,17 +49,17 @@
       },
       {
         "name": "Express",
-        "level": 85,
+        "level": 90,
         "image": "/assets/images/skills/express.svg"
       },
       {
         "name": "MongoDB",
-        "level": 80,
+        "level": 90,
         "image": "/assets/images/skills/mongodb.svg"
       },
       {
         "name": "MySQL",
-        "level": 70,
+        "level": 80,
         "image": "/assets/images/skills/mysql.svg"
       },
       {
@@ -69,12 +69,12 @@
       },
       {
         "name": "Redis",
-        "level": 70,
+        "level": 80,
         "image": "/assets/images/skills/redis.svg"
       },
       {
         "name": "RESTful API",
-        "level": 80,
+        "level": 90,
         "image": "/assets/images/skills/api.svg"
       }
     ]
@@ -84,13 +84,13 @@
     "items": [
       {
         "name": "Docker",
-        "level": 75,
+        "level": 80,
         "image": "/assets/images/skills/docker.svg"
       },
       { "name": "Git", "level": 80, "image": "/assets/images/skills/git.svg" },
       {
         "name": "Figma",
-        "level": 70,
+        "level": 80,
         "image": "/assets/images/skills/figma.svg"
       }
     ]
